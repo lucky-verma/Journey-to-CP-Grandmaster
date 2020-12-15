@@ -1,0 +1,42 @@
+type: codeforces
+files:
+- name: main.py
+  visible: true
+  text: |
+    """
+    Accomplished using the EduTools plugin by JetBrains https://plugins.jetbrains.com/plugin/10081-edutools
+    """
+
+    if __name__ == "__main__":
+        # Write your solution here
+        pass
+  learner_created: false
+- name: testData/1/input.txt
+  visible: true
+  text: |-
+    6
+    8
+    20192020
+    8
+    22019020
+    4
+    2020
+    5
+    20002
+    6
+    729040
+    6
+    200200
+  learner_created: false
+- name: testData/1/output.txt
+  visible: true
+  text: |-
+    YES
+    YES
+    YES
+    NO
+    NO
+    NO
+  learner_created: false
+feedback_link: https://codeforces.com/contest/1462/problem/B?locale=en
+status: Unchecked

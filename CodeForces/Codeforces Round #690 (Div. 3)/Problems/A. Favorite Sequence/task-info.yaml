@@ -1,0 +1,37 @@
+type: codeforces
+files:
+- name: testData/1/input.txt
+  visible: true
+  text: |-
+    6
+    7
+    3 4 5 2 9 1 1
+    4
+    9 2 7 1
+    11
+    8 4 3 1 2 7 8 7 9 4 2
+    1
+    42
+    2
+    11 7
+    8
+    1 1 1 1 1 1 1 1
+  learner_created: false
+- name: testData/1/output.txt
+  visible: true
+  text: "3 1 4 1 5 9 2 \n9 1 2 7 \n8 2 4 4 3 9 1 7 2 8 7 \n42 \n11 7 \n1 1 1 1 1 1\
+    \ 1 1"
+  learner_created: false
+- name: main.py
+  visible: true
+  text: |
+    """
+    Accomplished using the EduTools plugin by JetBrains https://plugins.jetbrains.com/plugin/10081-edutools
+    """
+
+    if __name__ == "__main__":
+        # Write your solution here
+        pass
+  learner_created: false
+feedback_link: https://codeforces.com/contest/1462/problem/A?locale=en
+status: Unchecked

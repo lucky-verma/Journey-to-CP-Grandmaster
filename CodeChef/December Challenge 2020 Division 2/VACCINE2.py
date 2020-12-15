@@ -7,11 +7,11 @@ for _ in range(int(input())):  # takes the input cases
             risky = risky + 1
         else:
             normal = normal + 1
-    Rday = risky // D
-    Nday = normal // D
+    rDay = risky // D
+    nDay = normal // D
     if risky % D != 0:
-        Rday = Rday + 1
+        rDay = rDay + 1
     if normal % D != 0:
-        Rday = Rday + 1
-    Rday = Rday + Nday
-    print(Rday)
+        rDay = rDay + 1
+    rDay = rDay + nDay
+    print(rDay)
