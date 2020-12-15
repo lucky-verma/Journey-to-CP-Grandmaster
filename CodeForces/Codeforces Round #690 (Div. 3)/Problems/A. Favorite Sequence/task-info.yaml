@@ -34,4 +34,16 @@ files:
         pass
   learner_created: false
 feedback_link: https://codeforces.com/contest/1462/problem/A?locale=en
-status: Unchecked
+status: Failed
+feedback:
+  message: Test №1 is failed
+  time: Tue, 15 Dec 2020 15:56:34 UTC
+  expected: "3 1 4 1 5 9 2 \n9 1 2 7 \n8 2 4 4 3 9 1 7 2 8 7 \n42 \n11 7 \n1 1 1 1\
+    \ 1 1 1 1"
+  actual: |-
+    3 1 4 1 5 9 2
+    9 1 2 7
+    8 2 4 4 3 9 1 7 2 8 7
+    42
+    11 7
+    1 1 1 1 1 1 1 1
