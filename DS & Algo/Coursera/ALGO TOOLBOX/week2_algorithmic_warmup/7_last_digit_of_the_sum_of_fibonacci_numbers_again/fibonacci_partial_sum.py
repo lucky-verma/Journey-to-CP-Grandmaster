@@ -1,22 +1,18 @@
-# Uses python3
 import sys
 
-def fibonacci_partial_sum_naive(from_, to):
-    sum = 0
 
-    current = 0
-    next  = 1
+def fibonacci_partial_sum_fast(n):
+    Fibo = [0, 1]
+    last = [0, 1]
+    for i in range(2, 60):
+        Fibo.append(Fibo[i - 1] + Fibo[i - 2])
+        last.append(int(str(Fibo[i])[-1]))
+    square = last[n % 60] * last[n % 60] + last[n % 60] * last[(n - 1) % 60]
 
-    for i in range(to + 1):
-        if i >= from_:
-            sum += current
-
-        current, next = next, current + next
-
-    return sum % 10
+    return square % 10
 
 
 if __name__ == '__main__':
-    input = sys.stdin.read();
-    from_, to = map(int, input.split())
-    print(fibonacci_partial_sum_naive(from_, to))
+    input = sys.stdin.read()
+    n = int(input)
+    print(fibonacci_partial_sum_fast(n))
