@@ -1,0 +1,16 @@
+type: codeforces
+title: Educational Codeforces Round 100 (Rated for Div. 2)
+language: English
+summary: |-
+  A. Dungeon
+  B. Find The Array
+  C. Busy Robot
+  D. Pairs
+  E. Plan of Lectures
+  F. Max Correct Set
+programming_language: Python
+programming_language_version: 3.x
+content:
+- Problems
+end_date_time: 1608222900.000000000
+mode: Study
