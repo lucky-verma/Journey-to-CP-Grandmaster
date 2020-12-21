@@ -1,0 +1,45 @@
+type: codeforces
+files:
+- name: main.py
+  visible: true
+  text: |
+    """
+    Accomplished using the EduTools plugin by JetBrains https://plugins.jetbrains.com/plugin/10081-edutools
+    """
+
+    if __name__ == "__main__":
+        # Write your solution here
+        pass
+  learner_created: false
+- name: testData/1/input.txt
+  visible: true
+  text: |-
+    2 -1
+    ba
+  learner_created: false
+- name: testData/1/output.txt
+  visible: true
+  text: "Yes"
+  learner_created: false
+- name: testData/2/input.txt
+  visible: true
+  text: |-
+    3 -7
+    abc
+  learner_created: false
+- name: testData/2/output.txt
+  visible: true
+  text: "No"
+  learner_created: false
+- name: testData/3/input.txt
+  visible: true
+  text: |-
+    7 -475391
+    qohshra
+  learner_created: false
+- name: testData/3/output.txt
+  visible: true
+  text: "Yes"
+  learner_created: false
+feedback_link: https://codeforces.com/contest/1465/problem/E?locale=en
+status: Unchecked
