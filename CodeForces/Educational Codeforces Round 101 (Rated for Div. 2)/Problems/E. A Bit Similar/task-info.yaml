@@ -1,0 +1,51 @@
+type: codeforces
+files:
+- name: main.py
+  visible: true
+  text: |
+    """
+    Accomplished using the EduTools plugin by JetBrains https://plugins.jetbrains.com/plugin/10081-edutools
+    """
+
+    if __name__ == "__main__":
+        # Write your solution here
+        pass
+  learner_created: false
+- name: testData/1/input.txt
+  visible: true
+  text: |-
+    7
+    4 2
+    0110
+    4 2
+    1001
+    9 3
+    010001110
+    9 3
+    101110001
+    10 3
+    0101110001
+    10 10
+    1111111111
+    11 10
+    11111111110
+  learner_created: false
+- name: testData/1/output.txt
+  visible: true
+  text: |-
+    YES
+    11
+    YES
+    00
+    YES
+    010
+    YES
+    101
+    NO
+    YES
+    0000000001
+    YES
+    0000000010
+  learner_created: false
+feedback_link: https://codeforces.com/contest/1469/problem/E?locale=en
+status: Unchecked

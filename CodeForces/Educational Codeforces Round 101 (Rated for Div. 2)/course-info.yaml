@@ -1,0 +1,16 @@
+type: codeforces
+title: Educational Codeforces Round 101 (Rated for Div. 2)
+language: English
+summary: |-
+  A. Regular Bracket Sequence
+  B. Red and Blue
+  C. Building a Fence
+  D. Ceil Divisions
+  E. A Bit Similar
+  F. Power Sockets
+programming_language: Python
+programming_language_version: 3.x
+content:
+- Problems
+end_date_time: 1609173300.000000000
+mode: Study
