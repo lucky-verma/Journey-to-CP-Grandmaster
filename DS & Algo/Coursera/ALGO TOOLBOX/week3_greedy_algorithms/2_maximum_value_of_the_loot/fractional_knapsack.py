@@ -3,15 +3,14 @@ import sys
 
 
 def get_optimal_value(capacity, weights, values):
-    value = 0.
     # write your code here
     value = 0
     for i in range(n):
         if capacity == 0:
             return value
         a = min(capacity, weights[values[i]])
-        value = value + values[i] * a
-        capacity = capacity - a
+        value += values[i] * a
+        capacity -= a
     return value
 
 
