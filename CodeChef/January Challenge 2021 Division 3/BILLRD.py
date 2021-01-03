@@ -65,7 +65,7 @@ if __name__ == "__main__":
         y1 = y - b
         # print(x1, y1)
         b2 = N - max(x, y)
-        x2 = N
+        x2 = x + b2
         y2 = y + b2
         # print(x2, y2)
         x3 = y2
@@ -77,20 +77,23 @@ if __name__ == "__main__":
         k = K % 4
         # print(K % 4)
         if x == N and y == 0:
-            if k == 0 or 2:
-                print(y, x)
-            elif k == 1 or 3:
-                print(x, y)
+            # print("1")
+            print(x, y)
         elif x == 0 and y == N:
-            if k == 0 or 2:
-                print(y, x)
-            elif k == 1 or 3:
-                print(x, y)
+            # print("2")
+            print(x, y)
+        elif x2 == N and y2 == N:
+            # print("3")
+            print(x2, y2)
         elif k == 0:
+            # print("4")
             print(x1, y1)
         elif k == 1:
+            # print("5")
             print(x2, y2)
         elif k == 2:
+            # print("6")
             print(x3, y3)
         elif k == 3:
+            # print("7")
             print(x4, y4)
