@@ -33,4 +33,13 @@ files:
     5
   learner_created: false
 feedback_link: https://codeforces.com/contest/1472/problem/C?locale=en
-status: Unchecked
+status: Failed
+feedback:
+  message: Test №1 is failed
+  time: Mon, 04 Jan 2021 16:08:05 UTC
+  expected: |-
+    7
+    6
+    1000
+    5
+  actual: <no output>
