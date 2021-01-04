@@ -1,0 +1,17 @@
+type: codeforces
+title: 'Codeforces Round #693 (Div. 3)'
+language: English
+summary: |-
+  A. Cards for Friends
+  B. Fair Division
+  C. Long Jumps
+  D. Even-Odd Game
+  E. Correct Placement
+  F. New Year's Puzzle
+  G. Moving to the Capital
+programming_language: Python
+programming_language_version: 3.x
+content:
+- Problems
+end_date_time: 1609778100.000000000
+mode: Study

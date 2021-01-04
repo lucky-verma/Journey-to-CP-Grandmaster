@@ -1,0 +1,34 @@
+type: codeforces
+files:
+- name: testData/1/input.txt
+  visible: true
+  text: |-
+    5
+    2 2 3
+    3 3 2
+    5 10 2
+    11 13 1
+    1 4 4
+  learner_created: false
+- name: testData/1/output.txt
+  visible: true
+  text: |-
+    YES
+    NO
+    YES
+    YES
+    YES
+  learner_created: false
+- name: main.py
+  visible: true
+  text: |
+    """
+    Accomplished using the EduTools plugin by JetBrains https://plugins.jetbrains.com/plugin/10081-edutools
+    """
+
+    if __name__ == "__main__":
+        # Write your solution here
+        pass
+  learner_created: false
+feedback_link: https://codeforces.com/contest/1472/problem/A?locale=en
+status: Unchecked
