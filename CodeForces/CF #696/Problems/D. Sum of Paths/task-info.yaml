@@ -1,0 +1,77 @@
+type: codeforces
+files:
+- name: main.py
+  visible: true
+  text: |
+    """
+    Accomplished using the EduTools plugin by JetBrains https://plugins.jetbrains.com/plugin/10081-edutools
+    """
+
+    if __name__ == "__main__":
+        # Write your solution here
+        pass
+  learner_created: false
+- name: testData/1/input.txt
+  visible: true
+  text: |-
+    5 1 5
+    3 5 1 4 2
+    1 9
+    2 4
+    3 6
+    4 6
+    5 2
+  learner_created: false
+- name: testData/1/output.txt
+  visible: true
+  text: |-
+    62
+    58
+    78
+    86
+    86
+  learner_created: false
+- name: testData/2/input.txt
+  visible: true
+  text: |-
+    5 2 5
+    3 5 1 4 2
+    1 9
+    2 4
+    3 6
+    4 6
+    5 2
+  learner_created: false
+- name: testData/2/output.txt
+  visible: true
+  text: |-
+    157
+    147
+    207
+    227
+    227
+  learner_created: false
+- name: testData/3/input.txt
+  visible: true
+  text: |-
+    4 40 6
+    92 21 82 46
+    3 56
+    1 72
+    4 28
+    1 97
+    2 49
+    2 88
+  learner_created: false
+- name: testData/3/output.txt
+  visible: true
+  text: |-
+    239185261
+    666314041
+    50729936
+    516818968
+    766409450
+    756910476
+  learner_created: false
+feedback_link: https://codeforces.com/contest/1467/problem/D?locale=en
+status: Unchecked

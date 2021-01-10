@@ -1,0 +1,39 @@
+type: codeforces
+files:
+- name: main.py
+  visible: true
+  text: |
+    """
+    Accomplished using the EduTools plugin by JetBrains https://plugins.jetbrains.com/plugin/10081-edutools
+    """
+
+    if __name__ == "__main__":
+        # Write your solution here
+        pass
+  learner_created: false
+- name: testData/1/input.txt
+  visible: true
+  text: |-
+    2 4 1
+    1 2
+    6 3 4 5
+    5
+  learner_created: false
+- name: testData/1/output.txt
+  visible: true
+  text: 20
+  learner_created: false
+- name: testData/2/input.txt
+  visible: true
+  text: |-
+    3 2 2
+    7 5 4
+    2 9
+    7 1
+  learner_created: false
+- name: testData/2/output.txt
+  visible: true
+  text: 29
+  learner_created: false
+feedback_link: https://codeforces.com/contest/1467/problem/C?locale=en
+status: Unchecked
